@@ -1,5 +1,5 @@
 # CopePhattener
-An experimental generative audio plugin<br>
+An generative low and high end booster audio plugin<br>
 <img width="300" alt="preview" src="https://github.com/user-attachments/assets/74616a7b-b0c6-472b-a7d8-143d0f8d3e77">
 
 - Bandpassed white noise and sub oscillator attached to a sidechain<br>
