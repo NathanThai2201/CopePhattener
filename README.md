@@ -4,7 +4,7 @@ An experimental generative audio plugin<br>
 
 - Bandpassed white noise and sub oscillator attached to a sidechain<br>
 - Guaranteed to make your sounds rich and beefy<br>
-- Apply distortion or OTT after for maximum thickness<br>
+- Apply distortion after for maximum thickness<br>
 
 Installation Instructions:<br>
 
