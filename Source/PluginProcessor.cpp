@@ -273,13 +273,13 @@ juce::AudioProcessorValueTreeState::ParameterLayout CopePhattenerAudioProcessor:
 {
     juce::AudioProcessorValueTreeState::ParameterLayout layout;
     layout.add(std::make_unique<juce::AudioParameterFloat>(juce::ParameterID("subFreq",1),"subFreq",juce::NormalisableRange<float>(20.0f, 100.0f, 0.1f, 1.0f), 86.0f));
-    layout.add(std::make_unique<juce::AudioParameterFloat>(juce::ParameterID("subThreshold",1),"subThreshold",juce::NormalisableRange<float>(0.0f, 2.0f, 0.01f, 1.0f), 0.5f));
+    layout.add(std::make_unique<juce::AudioParameterFloat>(juce::ParameterID("subThreshold",1),"subThreshold",juce::NormalisableRange<float>(0.0f, 1.0f, 0.01f, 1.0f), 0.5f));
     layout.add(std::make_unique<juce::AudioParameterFloat>(juce::ParameterID("subWet",1),"subWet",juce::NormalisableRange<float>(0.0f, 2.0f, 0.01f, 1.0f), 0.3f));
     layout.add(std::make_unique<juce::AudioParameterFloat>(juce::ParameterID("noiseFreq",1),"noiseFreq",juce::NormalisableRange<float>(20.0f, 20000.0f, 0.1f, 1.0f), 10000.0f));
-    layout.add(std::make_unique<juce::AudioParameterFloat>(juce::ParameterID("noiseThreshold",1),"noiseThreshold",juce::NormalisableRange<float>(0.0f, 2.0f, 0.01f, 1.0f), 0.5f));
+    layout.add(std::make_unique<juce::AudioParameterFloat>(juce::ParameterID("noiseThreshold",1),"noiseThreshold",juce::NormalisableRange<float>(0.0f, 1.0f, 0.01f, 1.0f), 0.5f));
     layout.add(std::make_unique<juce::AudioParameterFloat>(juce::ParameterID("noiseWet",1),"noiseWet",juce::NormalisableRange<float>(0.0f, 2.0f, 0.01f, 1.0f), 0.5f));
     layout.add(std::make_unique<juce::AudioParameterFloat>(juce::ParameterID("dry",1),"dry",juce::NormalisableRange<float>(0.0f, 2.0f, 0.01f, 1.0f), 1.0f));
-    layout.add(std::make_unique<juce::AudioParameterFloat>(juce::ParameterID("volume",1),"volume",juce::NormalisableRange<float>(0.0f, 2.0f, 0.01f, 1.0f), 0.5f));
+    layout.add(std::make_unique<juce::AudioParameterFloat>(juce::ParameterID("volume",1),"volume",juce::NormalisableRange<float>(0.0f, 1.0f, 0.01f, 1.0f), 0.5f));
     
     
     return layout;
